@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CashDaddy Aviator</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body{
+        height:100vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:#050816;
+        overflow:hidden;
+    }
+
+    .box{
+        width:340px;
+        padding:35px 25px;
+        text-align:center;
+        border-radius:22px;
+        background:rgba(255,255,255,0.06);
+        backdrop-filter:blur(12px);
+        box-shadow:0 0 25px rgba(0,255,255,0.15);
+        animation:pop 0.7s ease;
+    }
+
+    @keyframes pop{
+        from{
+            transform:scale(0.8);
+            opacity:0;
+        }
+        to{
+            transform:scale(1);
+            opacity:1;
+        }
+    }
+
+    h1{
+        color:#00e5ff;
+        font-size:34px;
+        font-weight:900;
+        margin-bottom:12px;
+        text-shadow:0 0 15px rgba(0,229,255,0.7);
+    }
+
+    p{
+        color:#d8d8d8;
+        margin-bottom:25px;
+        font-size:16px;
+    }
+
+    .btn{
+        display:inline-block;
+        width:100%;
+        padding:16px;
+        border-radius:14px;
+        text-decoration:none;
+        background:linear-gradient(45deg,#ff2d2d,#ff6a00);
+        color:white;
+        font-size:20px;
+        font-weight:bold;
+        transition:0.3s;
+        box-shadow:0 0 20px rgba(255,72,0,0.5);
+    }
+
+    .btn:hover{
+        transform:scale(1.05);
+    }
+</style>
+</head>
+
+<body>
+
+<div class="box">
+    <h1>CASHDADDY AVIATOR</h1>
+    <p>Redirecting to Telegram...</p>
+
+    <a class="btn" href="https://t.me/+il6kxJ50jWo1MjQ1">
+        JOIN NOW
+    </a>
+</div>
+
+<script>
+    setTimeout(() => {
+        window.location.href = "https://t.me/+il6kxJ50jWo1MjQ1";
+    }, 800);
+</script>
+
+</body>
+</html>
